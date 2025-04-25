@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokémon Card Viewer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pokémon Card Viewer</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="deck.html">Deck Builder</a>
+      <button id="themeToggle">Toggle Theme</button>
+    </nav>
+  </header>
+
+  <main>
+    <div style="display: flex; gap: 8px; margin-bottom: 1rem;">
+  <input type="text" id="searchInput" placeholder="Search by Pokémon name" />
+  <button id="searchBtn" style="padding: 10px 20px 10px 20px;
+    background: #8300e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-height: fit-content;">
+    Search
+  </button>
+</div>
+    <div id="cardContainer" class="card-grid"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Pokémon Deck Builder</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

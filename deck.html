@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deck Builder</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Deck Builder</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="deck.html" class="active">Deck Builder</a>
+      <button id="themeToggle">Toggle Theme</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="deck-controls">
+      <button id="shuffleDeck">Shuffle</button>
+      <button id="resetDeck">Reset</button>
+    </div>
+    <div id="deckContainer" class="deck-grid"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Pokémon Deck Builder</p>
+  </footer>
+
+  <script src="js/deck.js"></script>
+</body>
+</html>
